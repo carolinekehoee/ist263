@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split Nav Participation</title>
+    <style>
+        nav {
+            background-color: #000000;
+            padding: 10px;
+            color: #ffffff;
+            display: flex;
+            justify-content: flex-end; /*must be on row container*/
+        }
+        .nav1 {
+            justify-content: space-between;
+        }
+        
+        .navsplit {
+            display: flex;
+        }
+        nav div {padding: 10px;}
+
+    </style>
+</head>
+<body>
+    
+    <h2>split navigation</h2>
+    <nav class="nav1"> <!-- big row with two columns-->
+        <div class="navsplit">
+            <div>
+                Facebook
+                <link rel="" href="">
+            </div>
+            <div>
+                Twitter
+                <link rel="" href="">
+            </div>
+            <div>
+                Instagram
+                <link rel="" href="">
+            </div>+
+        </div>
+
+        <div class="navsplit">
+            <div>
+                <img src="../images/download.png" alt="emoji">
+            </div>
+            <div>
+                <img src="../images/smile.jpeg" alt="smile emoji">
+            </div>
+        </div>
+
+    </nav>
+
+
+</body>
+</html>

@@ -51,3 +51,7 @@ nav a {display: block;
 padding: 10px;}
 span {display: none;}
 }
+
+h1, h2, h3 {
+        font-family: 'Castoro Titling', cursive;
+}

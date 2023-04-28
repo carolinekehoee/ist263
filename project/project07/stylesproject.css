@@ -99,3 +99,36 @@ h1, h2 {
 a {
     color:#000000;
 }
+
+/*Form*/
+
+body {background-color:#C5E0DC;}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d19feb; border-radius: 30em; margin:10px; padding: 10px;
+}
+
+/*Page2*/
+
+.page2container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topack {
+    background-color: #d19feb; border-radius: 1em; margin:10px;
+    padding: 20px;
+}
+
+.apps {
+    background-color: #f4ac84; border-radius: 1em; margin:10px;
+    padding: 20px;
+}
+
+.nottopack {
+    background-color: #d19feb; border-radius: 1em; margin:10px;
+    padding: 20px;
+}

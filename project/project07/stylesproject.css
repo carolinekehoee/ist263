@@ -193,6 +193,10 @@ body {background-color:#C5E0DC;}
       width: 100%;
     }
 }
+
+.alert, .bolt {
+    max-width: 400px;
+}
   
 /*Page 1*/
 
